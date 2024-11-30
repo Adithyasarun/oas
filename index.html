@@ -1,0 +1,170 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Oasis Ventures - Commercial Air Conditioner Detailer
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+        }
+  </style>
+  <script>
+   document.addEventListener('DOMContentLoaded', function() {
+            const images = [
+                'https://images.samsung.com/is/image/samsung/in-feature-evenly-circulates---cools-every-corner-254656356?$FB_TYPE_A_JPG$',
+                'https://images.samsung.com/is/image/samsung/in-feature-faster-cooling-in-wide-area-254633056?$FB_TYPE_A_JPG$',
+                'https://images.samsung.com/is/image/samsung/in-feature-optimized-operation-by-mds-254690473?$FB_TYPE_A_JPG$',
+                'https://images.samsung.com/is/image/samsung/in-feature-comfortable-cool--not-unpleasantly-cold-254656360?$FB_TYPE_A_JPG$'
+            ];
+            let currentIndex = 0;
+            const imageElement = document.getElementById('slideshow-image');
+
+            function changeImage() {
+                currentIndex = (currentIndex + 1) % images.length;
+                imageElement.src = images[currentIndex];
+            }
+
+            setInterval(changeImage, 5000);
+        });
+  </script>
+ </head>
+ <body class="bg-black text-white">
+  <header class="bg-violet-700 p-4">
+   <div class="container mx-auto flex justify-between items-center">
+    <h1 class="text-3xl font-bold">
+     Oasis Ventures
+    </h1>
+    <nav>
+     <ul class="flex space-x-4">
+      <li>
+       <a class="hover:text-violet-300" href="#home">
+        Home
+    </a>
+</li>
+<li>
+ <a class="hover:text-violet-300" href="#services">
+  Services
+ </a>
+</li>
+<li>
+ <a class="hover:text-violet-300" href="#about">
+  About Us
+ </a>
+</li>
+<li>
+ <a class="hover:text-violet-300" href="#contact">
+  Contact
+ </a>
+</li>
+</ul>
+</nav>
+</div>
+</header>
+<section class="relative h-screen flex items-center justify-center" id="home">
+<img alt="A modern commercial air conditioning unit in a sleek office environment" class="absolute inset-0 w-full h-full object-cover opacity-50" height="1080" id="slideshow-image" src="https://images.samsung.com/is/image/samsung/in-feature-evenly-circulates---cools-every-corner-254656356?$FB_TYPE_A_JPG$" width="1920"/>
+<div class="relative z-10 text-center">
+<h2 class="text-5xl font-bold mb-4">
+Welcome to Oasis Ventures
+</h2>
+<p class="text-xl mb-8">
+Your trusted partner in commercial air conditioning solutions
+</p>
+<a class="bg-violet-700 hover:bg-violet-500 text-white py-2 px-4 rounded transition duration-300" href="#services">
+Explore Our Services
+</a>
+</div>
+</section>
+<section class="py-16 bg-black" id="services">
+<div class="container mx-auto text-center">
+<h2 class="text-4xl font-bold mb-8">
+Our Services
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+     <div class="bg-violet-700 p-6 rounded-lg shadow-lg transform hover:scale-105 transition duration-300">
+      <img alt="Air conditioning unit installation in a commercial building" class="w-full h-48 object-cover mb-4 rounded" height="200" src="https://storage.googleapis.com/a1aa/image/wtwQhEG6fwWKZiV6OmfeQRhAsF4GQPPpd8S0ZHlISIolsVsnA.jpg" width="300"/>
+      <h3 class="text-2xl font-bold mb-2">
+       Installation
+      </h3>
+      <p>
+       Professional installation of commercial air conditioning units.
+      </p>
+     </div>
+     <div class="bg-violet-700 p-6 rounded-lg shadow-lg transform hover:scale-105 transition duration-300">
+      <img alt="Technician performing maintenance on an air conditioning unit" class="w-full h-48 object-cover mb-4 rounded" height="200" src="https://storage.googleapis.com/a1aa/image/cbBQ7nXmAc5LDtE55eRjk1W2SdcBLIZGNjGseN4Lx54P2K2TA.jpg" width="300"/>
+      <h3 class="text-2xl font-bold mb-2">
+       Maintenance
+      </h3>
+      <p>
+       Regular maintenance to ensure optimal performance and longevity.
+      </p>
+     </div>
+     <div class="bg-violet-700 p-6 rounded-lg shadow-lg transform hover:scale-105 transition duration-300">
+      <img alt="Technician Serviceing an air conditioning unit" class="w-full h-48 object-cover mb-4 rounded" height="200" src="https://storage.googleapis.com/a1aa/image/pK1KH2lNL4oGAVRiCYWtZxx6VCKuGDPzsI8OHvLfO0DKbF7JA.jpg" width="300"/>
+      <h3 class="text-2xl font-bold mb-2">
+       Service
+      </h3>
+      <p>
+       Expert Service services to fix any issues promptly and efficiently.
+      </p>
+     </div>
+    </div>
+   </div>
+  </section>
+  <section class="py-16 bg-violet-700" id="about">
+   <div class="container mx-auto text-center">
+    <h2 class="text-4xl font-bold mb-8">
+     About Us
+    </h2>
+    <p class="text-xl mb-8">
+     Oasis Ventures is a leading provider of commercial air conditioning solutions. We are associated with top brands like Samsung and Mitsubishi to bring you the best in class services.
+    </p>
+    <div class="flex justify-center space-x-8">
+     <img alt="Samsung logo" class="h-24" height="100" src="samsung-logo-1993.jpg" width="150"/>
+     <img alt="Mitsubishi logo" class="h-24" height="100" src="Mitsubishi-logo.png" width="150"/>
+    </div>
+   </div>
+  </section>
+  <section class="py-16 bg-black" id="contact">
+   <div class="container mx-auto text-center">
+    <h2 class="text-4xl font-bold mb-8">
+     Contact Us
+    </h2>
+    <form action="https://formcarry.com/s/your-formcarry-id" class="max-w-lg mx-auto bg-violet-700 p-8 rounded-lg shadow-lg" method="POST">
+     <div class="mb-4">
+      <label class="block text-left mb-2" for="name">
+       Name
+      </label>
+      <input class="w-full p-2 rounded" id="name" name="name" required="" type="text"/>
+     </div>
+     <div class="mb-4">
+      <label class="block text-left mb-2" for="email">
+       Email
+      </label>
+      <input class="w-full p-2 rounded" id="email" name="email" required="" type="email"/>
+     </div>
+     <div class="mb-4">
+      <label class="block text-left mb-2" for="message">
+       Message
+      </label>
+      <textarea class="w-full p-2 rounded" id="message" name="message" required="" rows="4">
+      </textarea>
+     </div>
+     <button  class="bg-violet-500 hover:bg-violet-700 text-white py-2 px-6 rounded-full transition duration-300" type="submit">
+      Send Message
+     </button>
+    </form>
+   </div>
+  </section>
+  <footer class="bg-violet-700 p-4 text-center">
+   <p>
+    <marquee>© 2024 Oasis Ventures. All rights reserved.</marquee>
+   </p>
+  </footer>
+ </body>
+</html>
